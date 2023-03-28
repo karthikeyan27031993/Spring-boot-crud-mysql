@@ -6,6 +6,11 @@ stages{
             git branch: 'main', url: 'https://github.com/karthikeyan27031993/Spring-boot-crud-mysql.git'
         }
     }
+    stage('Unit Testing'){
+        steps{
+            sh 'mvn test'
+        }
+    }
 
 }
 }
