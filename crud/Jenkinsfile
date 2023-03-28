@@ -8,7 +8,7 @@ stages{
     }
     stage('Unit Testing'){
         steps{
-            bat 'mvn test'
+            bat 'crud/pom.xml mvn test'
         }
     }
 
