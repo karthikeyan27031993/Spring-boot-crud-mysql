@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91d37c8f-2e0f-4818-80ef-1c4797e6d980" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +110,7 @@
       <workItem from="1679990687936" duration="2080000" />
       <workItem from="1679996564173" duration="927000" />
       <workItem from="1679998974989" duration="3079000" />
-      <workItem from="1680158319043" duration="1933000" />
+      <workItem from="1680158319043" duration="2253000" />
     </task>
     <servers />
   </component>

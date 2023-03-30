@@ -26,7 +26,6 @@ stages{
         steps{
             withSonarQubeEnv(credentialsId: 'sonar-api-key') {
                     bat 'mvn clean package sonar:sonar'
-                     // some block
                  }
         }
     }
