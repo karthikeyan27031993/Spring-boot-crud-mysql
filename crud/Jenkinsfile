@@ -8,26 +8,22 @@ stages{
     }
     stage('Unit Testing'){
         steps{
-            bat 'cd crud'
             bat 'mvn test'
         }
     }
     stage('Integration Testing'){
         steps{
-            bat 'cd crud'
             bat 'mvn verify -DskipUnitTests'
         }
     }
      stage('Mvn build'){
             steps{
-                bat 'cd crud'
                 bat 'mvn clean install'
             }
      }
 
       stage('Static Code analysis'){
                   steps{
-                      bat 'cd crud'
                       bat 'mvn clean install'
                   }
       }
