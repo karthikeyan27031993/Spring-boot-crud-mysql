@@ -28,8 +28,7 @@ stages{
 
       stage('Static Code analysis'){
                   steps{
-                      bat 'cd crud'
-                      bat 'mvn clean install'
+
                   }
       }
 }
