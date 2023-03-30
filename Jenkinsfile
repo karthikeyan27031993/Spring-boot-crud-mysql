@@ -21,5 +21,15 @@ stages{
                  bat 'mvn clean install'
             }
      }
+
+    stage('Static Code analysis'){
+        steps{
+            withSonarQubeEnv(credentialsId: 'sonar-api-key') {
+                    bat 'mvn clean package sonar:sonar'
+                     // some block
+                 }
+        }
+    }
+
 }
 }
