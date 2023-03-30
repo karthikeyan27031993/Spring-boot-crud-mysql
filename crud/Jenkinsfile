@@ -18,6 +18,12 @@ stages{
             bat 'mvn verify -DskipUnitTests'
         }
     }
+     stage('Mvn build'){
+            steps{
+                bat 'cd crud'
+                bat 'mvn clean install'
+            }
+        }
 
 }
 }
