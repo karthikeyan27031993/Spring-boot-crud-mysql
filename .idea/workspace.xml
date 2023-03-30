@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91d37c8f-2e0f-4818-80ef-1c4797e6d980" name="Changes" comment="" />
+    <list default="true" id="91d37c8f-2e0f-4818-80ef-1c4797e6d980" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,6 +38,9 @@
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2N2B3Saj1wRgkpIImm7VTHOx9Yv" />
   <component name="ProjectViewState">
@@ -105,6 +110,7 @@
       <workItem from="1679990687936" duration="2080000" />
       <workItem from="1679996564173" duration="927000" />
       <workItem from="1679998974989" duration="3079000" />
+      <workItem from="1680158319043" duration="213000" />
     </task>
     <servers />
   </component>

@@ -3,26 +3,22 @@ agent any
 stages{
     stage('Git Checkout'){
         steps{
-            bat 'cd crud'
             git branch: 'main', url: 'https://github.com/karthikeyan27031993/Spring-boot-crud-mysql.git'
         }
     }
     stage('Unit Testing'){
         steps{
-            bat 'cd crud'
             bat 'mvn test'
         }
     }
     stage('Integration Testing'){
         steps{
-            bat 'cd crud'
             bat 'mvn verify -DskipUnitTests'
         }
     }
      stage('Mvn build'){
             steps{
-                bat 'cd crud'
-                bat 'mvn clean install'
+                 bat 'mvn clean install'
             }
      }
 
