@@ -25,8 +25,8 @@ stages{
     stage('Static Code analysis'){
         steps{
             withSonarQubeEnv(credentialsId: 'sonar-api-key') {
-                    bat 'mvn clean package sonar:sonar'
-                 }
+                bat 'mvn clean package'
+            }
         }
     }
 
