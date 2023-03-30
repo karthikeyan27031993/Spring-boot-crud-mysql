@@ -21,11 +21,5 @@ stages{
                  bat 'mvn clean install'
             }
      }
-
-      stage('Static Code analysis'){
-                  steps{
-
-                  }
-      }
 }
 }
